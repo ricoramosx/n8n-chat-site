@@ -248,12 +248,13 @@
         }
 
         .n8n-chat-widget .chat-toggle:hover {
-            transform: scale(1.05);
+            background: var(--whatsapp-green-dark);
+            transform: scale(1.1);
         }
 
         .n8n-chat-widget .chat-toggle svg {
-            width: 24px;
-            height: 24px;
+            width: 30px;
+            height: 30px;
             fill: currentColor;
         }
 
