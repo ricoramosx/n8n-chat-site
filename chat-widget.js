@@ -230,13 +230,13 @@
             width: 60px;
             height: 60px;
             border-radius: 30px;
-            background: linear-gradient(135deg, var(--chat--color-primary) 0%, var(--chat--color-secondary) 100%);
-            color: white;
+            background: var(--whatsapp-green);
+            color: var(--whatsapp-white);
             border: none;
             cursor: pointer;
             box-shadow: 0 4px 12px rgba(133, 79, 255, 0.3);
             z-index: 999;
-            transition: transform 0.3s;
+            transition: transform 0.3s, background-color 0.3s;
             display: flex;
             align-items: center;
             justify-content: center;
