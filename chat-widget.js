@@ -241,6 +241,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            animation: pulse 1.5s ease-in-out infinite;
         }
 
         .n8n-chat-widget .chat-toggle.position-left {
