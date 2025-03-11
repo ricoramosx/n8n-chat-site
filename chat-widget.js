@@ -109,20 +109,21 @@
             gap: 8px;
             width: 100%;
             padding: 16px 24px;
-            background: linear-gradient(135deg, var(--chat--color-primary) 0%, var(--chat--color-secondary) 100%);
-            color: white;
+            background: linear-gradient(135deg, var(--whatsapp-green) 0%, var(--whatsapp-green-dark) 100%);
+            color: var(--whatsapp-white);
             border: none;
             border-radius: 8px;
             cursor: pointer;
             font-size: 16px;
-            transition: transform 0.3s;
+            transition: transform 0.3s, background-color 0.3s;
             font-weight: 500;
             font-family: inherit;
             margin-bottom: 12px;
         }
 
         .n8n-chat-widget .new-chat-btn:hover {
-            transform: scale(1.02);
+            background: linear-gradient(135deg, var(--whatsapp-green-dark) 0%,  #075e54 100%);
+            transform: scale(1.05);
         }
 
         .n8n-chat-widget .message-icon {
