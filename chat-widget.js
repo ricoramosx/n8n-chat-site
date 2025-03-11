@@ -15,6 +15,17 @@
     --whatsapp-white: #FFFFFF;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Ajuste a intensidade aqui */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
         .n8n-chat-widget .chat-container {
             position: fixed;
             bottom: 20px;
